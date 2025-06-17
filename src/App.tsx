@@ -1,11 +1,10 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
 
 function App() {
   return (
-    <>
-      
-    </>
+    <div className="text-center">
+      This is a vite/shadcn template
+    </div>
   );
 }
 
