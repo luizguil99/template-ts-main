@@ -1,9 +1,9 @@
-import React from "react";
+
 
 function App() {
   return (
-    <div className="text-center">
-      This is a vite/shadcn template
+    <div className="min-h-screen bg-background flex items-center justify-center">
+      <h1 className="text-4xl font-bold">Vite/Typescript-Template</h1>
     </div>
   );
 }
