@@ -56,7 +56,7 @@ function App() {
     <div className="min-h-screen bg-background flex items-center justify-center p-6">
       <Card className="w-full max-w-xl">
         <CardHeader>
-          <CardTitle className="text-2xl">Lista de Tarefas</CardTitle>
+          <CardTitle className="text-2xl">Lista de Tarefas Guilherme</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="flex gap-2">
