@@ -24,8 +24,13 @@ function createWindow() {
 
   if (!app.isPackaged) {
     mainWindow.loadURL(devServerUrl)
+    // Abre as DevTools em desenvolvimento
+    mainWindow.webContents.openDevTools()
   } else {
-    mainWindow.loadFile(path.join(__dirname, '../dist/index.html'))
+    // Carrega o arquivo HTML da build
+    const indexPath = path.join(__dirname, '../dist/index.html')
+    console.log('Loading file from:', indexPath)
+    mainWindow.loadFile(indexPath)
   }
 
   mainWindow.on('closed', () => {
